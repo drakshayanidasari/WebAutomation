@@ -1,0 +1,3 @@
+url="https://ramanasoft.com/intern_dash/applied"
+password="9849623889"
+otp="404370934"
