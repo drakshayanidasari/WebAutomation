@@ -12,8 +12,22 @@
   <artifactId>selenium-java</artifactId>
   <version>4.20.0</version> <!-- Replace with the latest -->
 </dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>7.14.0</version> <!-- or the version you're using -->
+</dependency>
 
-
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi</artifactId>
+  <version>5.2.5</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi-ooxml</artifactId>
+  <version>5.2.5</version>
+</dependency>
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
@@ -80,7 +94,45 @@
     <version>5.1.2</version>
 </dependency>
 
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi</artifactId>
+  <version>5.2.5</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.poi</groupId>
+  <artifactId>poi-ooxml</artifactId>
+  <version>5.2.5</version>
+</dependency>
 
-  
-  </dependencies>
+    <!-- Rest Assured Core -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.4.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- JSON path for parsing responses -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>json-path</artifactId>
+        <version>5.4.0</version>
+    </dependency>
+
+    <!-- Optional: TestNG or JUnit for test execution -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+        <scope>test</scope>
+    </dependency>
+
+
+    <dependency>
+    	<groupId>SeleniumCucumberProject1</groupId>
+    	<artifactId>SeleniumCucumberProject1</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    </dependencies>
 </project>
